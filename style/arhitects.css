@@ -8,6 +8,7 @@
 
 header{
     width: 100%;
+    margin: 0px auto;
     /* background-color: #ff8a0462 ; */
     background: #fff3e5 ;
 }
@@ -15,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     /* margin: 0px 240px; */
-    padding: 50px 240px;
+    margin: 50px 240px;
     gap: 500px;
     align-items: center;
 
@@ -53,7 +54,9 @@ nav h3{
 }
 .banner img{
     width: 1400px;
-    padding: 50px 240px 45px 240px;
+    height: 700px;
+    margin: 50px 240px 45px 240px;
+   
 }
 .banner-title{
     font-size: 64px;
@@ -75,4 +78,108 @@ nav h3{
     color: #FFFFFF;
     border: 0px;
     border-radius: 10px;
+}
+
+
+/* main section style */
+.worker-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+.quick-list-image img{
+    
+
+}
+.section-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin: 85px 301px 130px 301px;
+}
+.section-title h2{
+    font-size: 45px;
+    width: 468px;
+    height: 106px
+    
+}
+.section-title p{
+    width: 537px;
+    height: 78px;
+    font-size: 16px;
+    color: #727272;
+}
+@media screen and (max-width: 700px) {
+   nav{
+    flex-direction: column;
+    gap: 0px;
+   }
+   nav h3{
+    width: 280px;
+   }
+   nav ul{
+    width: 500px;
+
+   }
+   nav li{
+    padding-right: 20px;
+   }
+   .banner-title{
+    font-size: 30px;
+    width: 362px;
+   }
+   .banner-contant{
+    max-width: 500px;
+    /* text-align: center; */
+    margin: 0px auto;
+   }
+   .banner img{
+    width: 100%;
+    height: 100%;
+    /* padding: 50px 240px 45px 240px; */
+    margin: 10px 0px 15px 0px;
+   }
+   header{
+    width: 100%;
+   }
+   .banner-discription{
+     width: 350px;
+   }
+   .worker-image{
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .section-contant{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin: 85px 301px 130px 301px; */
+   }   
+}
+@media screen and (min-width: 700px) and (max-width: 992px) {
+    nav{
+        /* flex-direction: column; */
+        gap: 0px;
+    }
+    header{
+        width: 992px;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+        /* padding: 50px 240px 45px 240px; */
+        margin: 20px 0px 15px 0px;
+    }
+    .worker-image{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-contant{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* margin: 85px 301px 130px 301px; */
+    }   
 }
