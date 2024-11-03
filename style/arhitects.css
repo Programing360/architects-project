@@ -302,6 +302,22 @@ nav h3{
     
     
 }
+.copyright-title{
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin: 0px 240px 216px 240px;
+
+}
+.copyright-title h3{
+    width: 650px;
+    /* height: 23px; */
+    font-size: 20px;
+    color: #727272;
+    /* text-align: center; */
+    padding: 38px 410px 39px 410px;
+
+}
     
 @media screen and (max-width: 700px) {
    nav{
@@ -387,6 +403,14 @@ nav h3{
    .section4-style{
     margin: 180px 0px 50px 40px;
    }
+   .copyright-title{
+    width: 600px;
+    margin: 0px 0px 110px 0px;
+  }
+  .copyright-title h3{
+    width: 580px;
+    padding: 38px 400px 39px 0px;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 992px) {
     nav{
@@ -431,11 +455,18 @@ nav h3{
        }
 
        .section4-style{
-        margin: 180px 0px 50px 450px;
+        margin: 180px 0px 50px 350px;
        }
        .web-img-style{
-        margin: 0px 240px 130px 200px;
-        gap: 40px;
+        margin: 0px 200px 130px 120px;
+        gap: 30px;
         /* flex-wrap: wrap; */
+      }
+      .copyright-title{
+        width: 1180px;
+        margin: 0px 20px 120px 0px;
+      }
+      .copyright-title h3{
+        padding: 38px 400px 39px 300px;
       }
 }
