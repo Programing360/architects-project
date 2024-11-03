@@ -267,6 +267,41 @@ nav h3{
 .project3 img{
     padding: 60px 0px 0px 110px;
 }
+.section4-style{
+    margin: 180px 689px 50px 689px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #FF900E; */
+    width: 542px;
+    
+    
+}
+.section4-style h2{
+    width: 327px;
+    height: 53px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+    padding-left: 108px;
+   
+    
+}
+.section4-style p{
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    color: #727272;
+}
+.web-img-style{
+    display: flex;
+    width: 166px;
+    gap: 155px;
+    margin: 0px 240px 130px 240px;
+    
+    
+}
     
 @media screen and (max-width: 700px) {
    nav{
@@ -344,6 +379,14 @@ nav h3{
    .facts-image{
     margin: 10px 5px 5px 10px;
    }
+   .web-img-style{
+     margin: 0px 240px 130px 240px;
+     gap: 40px;
+     flex-wrap: wrap;
+   }
+   .section4-style{
+    margin: 180px 0px 50px 40px;
+   }
 }
 @media screen and (min-width: 700px) and (max-width: 992px) {
     nav{
@@ -386,4 +429,13 @@ nav h3{
        .facts-image{
         margin: 10px 5px 5px 10px;
        }
+
+       .section4-style{
+        margin: 180px 0px 50px 450px;
+       }
+       .web-img-style{
+        margin: 0px 240px 130px 200px;
+        gap: 40px;
+        /* flex-wrap: wrap; */
+      }
 }
